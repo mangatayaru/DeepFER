@@ -1,0 +1,44 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+data/
+dataset/
+datasets/
+
+# Large trained model files
+*.h5
+*.keras
+*.weights.h5
+*.pt
+*.pth
+*.ckpt
+
+# Logs
+logs/
+runs/
+tensorboard/
+
+# Temporary files
+*.tmp
+*.log
+
+# Environment variables / secrets
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/

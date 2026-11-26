@@ -1,0 +1,23 @@
+{
+  "project": "DeepFER",
+  "selected_model": "MobileNetV2 fine-tuned",
+  "class_names": [
+    "angry",
+    "disgust",
+    "fear",
+    "happy",
+    "neutral",
+    "sad",
+    "surprise"
+  ],
+  "input_shape": [
+    96,
+    96,
+    3
+  ],
+  "input_color_mode": "rgb",
+  "test_accuracy": 0.5547380812242496,
+  "test_macro_f1": 0.5316240464376907,
+  "seed": 42,
+  "note": "Predicts visible facial-expression categories, not a person's internal emotional state."
+}

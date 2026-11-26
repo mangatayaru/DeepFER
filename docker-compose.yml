@@ -1,0 +1,7 @@
+services:
+  deepfer:
+    build: .
+    container_name: deepfer-app
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
